@@ -1,0 +1,33 @@
+<div class="bg-image-1 hero">
+    <h1>Altere os dados do Funcionario</h1>
+    <form [formGroup]="fornecedorForm" (ngSubmit)="update()" class="row g-3">
+        <input type="hidden" formArrayName="id">
+    <div class="col-auto">
+      <label for="inputPassword2" class="visually">Nome</label>
+      <input type="text" class="form-control" id="inputPassword2" placeholder="Nome" formControlName="nome">
+    </div>
+    <div class="col-auto">
+        <label for="inputPassword2" class="visually">Usuario</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="ADM123" formControlName="usuario">
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually">Senha</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="@123" formControlName="senha">
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually">Cargo</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="analista" formControlName="cargo">
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually">Curso</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="www.dghajkds.com.br" formControlName="video">
+      </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+    </div>
+    <div class="col-auto">
+      <a href="fornecedor" class="btn btn-info mt-3">Voltar</a>
+    </div>
+  </form>
+  
+</div>  

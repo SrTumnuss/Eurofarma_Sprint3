@@ -1,0 +1,28 @@
+{
+  "Fornecedor": [
+    {
+      "nome": "Lucas",
+      "usuario": "ADM123",
+      "senha": "123",
+      "cargo": "Analista",
+      "video": "",
+      "id": "O9uCsG"
+    },
+    {
+      "nome": "Japa",
+      "usuario": "FUN123",
+      "senha": "123",
+      "cargo": "analista",
+      "video": "https://www.youtube.com/embed/VQKbQMWoIeo?si=m6vU4lgYxEbDnpL-",
+      "id": "ywR8Vd"
+    },
+    {
+      "nome": "kaike",
+      "usuario": "FUN321",
+      "senha": "123",
+      "cargo": "analista",
+      "video": "123",
+      "id": "f2Yvnd"
+    }
+  ]
+}
